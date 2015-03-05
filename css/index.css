@@ -1,0 +1,257 @@
+body{
+    line-height:1.4;
+    color:#333;
+    font-family:"微软雅黑";
+    font-size: 12px;
+    background: #f5f6e2;
+}
+input,textarea,select{
+    font-size:100%;
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+img{
+	border:0;
+}
+a{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+#header{
+	width: 100%;
+	background-color: #a50203;
+	text-align: center;
+}
+#header div{
+	width: 100%;
+	height: 21px;
+	background-image: url('../img/header_bar.jpg') ;
+}
+#wrapper{
+	margin: 15px auto;
+	width: 1175px;
+
+}
+#left_nav{
+	width: 190px;
+	height: 73px;
+	float: left;
+}
+#left_nav a{
+	position: relative;
+	display: block;
+	width: 100%;
+	border-bottom: solid 1px #a71611;
+	font-size: 19px;
+	text-align: center;
+	line-height: 73px;
+	text-decoration: none;
+	background-color: #bc1f1a;
+	color: #fff;
+}
+#left_nav a:hover{
+	background: #a71611;
+}
+#left_nav a span{
+	font-size: 15px;
+	font-family: "宋体";
+	font-weight: bold;
+}
+
+#left_nav a.actived{
+	background-color: #a71611;
+}
+#left_nav a.actived div.arrow{
+	display: block;
+	position: absolute;
+	left: 190px;
+	top: 28px;
+	width:0; 
+	height:0; 
+	border-width:10px; 
+	border-style:solid; 
+	border-color:#f5f6e2 #f5f6e2 #f5f6e2 #a71611;
+}
+#left_nav div{
+	display: none;
+}
+
+#content{
+	width: 722px;
+	margin-left: 22px;
+	float: left;
+}
+#wrapper:after{
+	content: ""; 
+	clear: both; 
+	display: block;
+}
+.allstar{
+	margin-bottom: 15px;
+	background-color: #f3f4f5;
+	border: solid 1px #dedede;
+	overflow: auto;
+}
+
+.onestar{
+	float: left;
+	width: 230px;
+	height: 165px;
+	margin: 10px 0 10px 9px;
+	font-size: 12px;
+	background-image: url('../img/starbg.png');
+ 	background-color: #ffffff;
+}
+.portrait{
+	float: left;
+}
+.portrait img{
+	width: 104px;
+	height: 138px;
+	margin: 10px 0 0 9px;
+}
+.detail{
+	float: left;
+	line-height: 1.8em;
+	width: 100px;
+	height: 110px;
+	margin: 10px 0 0 10px;
+	color: #000;
+}
+.detail p.starname span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.detail p span{
+	color: #ad0f09;
+}
+.votebtn{
+	float: left;
+	width: 72px;
+	height: 30px;
+	margin-left: 30px;
+	background-image: url('../img/setbtn.png');
+}
+/*sidebar*/
+#sidebar {
+	width: 220px;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	margin-left: 18px;
+}
+.sidebar_in{
+	border: 1px solid #dedede;
+	background: #fff8dd;
+	margin-bottom: 11px;
+}
+#sidebar h5{
+	color: #ba211c;
+	font-weight: bold;
+	line-height: 2.2;
+	padding-left: 13px;
+}
+h5.side_header{
+	background: url(../img/login_header.png) no-repeat;
+	border-bottom: 1px solid #ffd489;
+}
+.log_in form{
+	border-top: 1px solid #fff;
+}
+.label_t {
+	display: block;
+	color: #7c7c7c;
+	line-height: 2em;
+	padding: 10px 0 4px 16px;
+}
+.input_b {
+	display: block;
+	border: 1px solid #ffc15b;
+	width: 180px;
+	padding: 4px;
+	color: #c1c1c1;
+	margin-left: 12px;
+}
+.loginbtn {
+	width: 61px;
+	height: 23px;
+	background: url(../img/loginbtn_18.png);
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin: 17px 0 0 16px;
+}
+.getpw {
+	display: block;
+	color: #983835;
+	text-decoration: underline;
+	font-weight: bold;
+	padding: 12px 0 12px 22px;
+	border-bottom: 1px solid #ffd489;
+}
+h5.rule_head{
+	padding: 15px 0 10px;
+}
+#rule{
+	padding: 0 22px 0;
+}
+#rule p{
+	margin: 0 0 24px;
+	color: #727272;
+}
+.side_header span{
+	font-weight: normal;
+	color: #575757;
+	margin: 0 10px;
+}
+.three {
+	margin: 16px 0 0 20px;
+	color: #727272;
+}
+.three tr {
+	height: 2em;
+	line-height: 2em;
+}
+.three tr td.fi {
+	width: 70px;
+}
+.three tr td {
+	width: 50px;
+	overflow: hidden;
+}
+/*end of sidebar*/
+#footer {
+	width: 100%;
+	height: 149px;
+	background: #a50203;
+	padding-top: 25px;
+}
+#footer p {
+	color: #fff;
+	line-height: 3.5em;
+	text-align: center;
+}
+#footer p a {
+	color: #fff;
+}
